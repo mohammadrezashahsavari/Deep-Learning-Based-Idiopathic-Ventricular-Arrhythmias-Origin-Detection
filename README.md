@@ -1,14 +1,6 @@
-# Automated ECG Signal Analysis for Ventricular Arrhythmia Detection
+# Project Overview
 
-This repository contains the code and resources for the research paper on the automated detection of ventricular arrhythmias from 12-lead ECG signals. The project utilizes deep learning models, specifically a combination of Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (BiLSTM) networks, to classify ECG signals.
-
-## Project Overview
-
-The primary goal of this research is to develop a robust and accurate model for the automatic classification of ventricular arrhythmias. The key contributions of this work include:
-
-* **VGG-BiLSTM Model**: A deep learning architecture that leverages the feature extraction capabilities of VGG-style CNNs and the sequence modeling strengths of BiLSTMs.
-* **Data Preprocessing and Augmentation**: A comprehensive pipeline for preparing and augmenting the ECG data to improve model generalization and performance. This includes signal filtering, normalization, and data augmentation techniques like shifting and rescaling.
-* **10-Fold Cross-Validation**: A rigorous evaluation methodology to ensure the model's performance is robust and not biased by a specific train-test split.
+This project implements a fully automatic, end-to-end deep learning model to localize the origin of IVAs from 12-lead ECG data. The model is designed to differentiate between the two main locations where these abnormal signals originate: the right ventricular outflow tract (RVOT) and the left ventricular outflow tract (LVOT). The framework uses a combination of a Convolutional Neural Network (CNN) for spatial feature extraction, a recurrent neural network (RNN) for temporal analysis, and an attention mechanism to focus on the most critical parts of the ECG signal. Validated on a real-world dataset of 334 patients, the model provides a cost-effective and low-risk approach to aid in the evaluation of IVA patients before they undergo cardiac catheter ablation.
 
 ---
 
