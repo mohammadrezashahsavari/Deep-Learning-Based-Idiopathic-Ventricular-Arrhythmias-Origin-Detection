@@ -114,7 +114,7 @@ The `Models/` directory contains the definitions for the different neural networ
     * `VGG_BiLSTM_Model`
     * `VGG_LSTM_Attn_Model`
     * `VGG_BiLSTM_Attn_Model`
-* **`SemisupervisedModels.py`**: Contains models for semi-supervised learning experiments (if applicable).
+* **`SemisupervisedModels.py`**: Contains models for semi-supervised learning experiments.
 
 ---
 
